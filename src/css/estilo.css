@@ -1,5 +1,6 @@
 body {
   min-height: 600px;
+  font-family: 'Roboto Mono',monospace;
   background-image: url(../img/fundo.png);
   background-color: #000000c2;
   background-size: cover; /* dimenciona foto */
@@ -8,7 +9,7 @@ body {
 }
   
 .container { 
-  font-family: 'Roboto Mono',monospace;
+  
   text-align: center;
   padding: 120px;
   height: 64vh;
