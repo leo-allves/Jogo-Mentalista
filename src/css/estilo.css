@@ -1,42 +1,65 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 600px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');
-    background-color: #000000;
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
+  min-height: 600px;
+  background-image: url(../img/fundo.png);
+  background-color: #000000c2;
+  background-size: cover; /* dimenciona foto */
+  background-position: center bottom;
+  background-repeat: no-repeat; /*se a foto for menor ou maior nao deixa repetir*/
+}
   
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
+.container { 
+  font-family: 'Roboto Mono',monospace;
+  text-align: center;
+  padding: 120px;
+  height: 64vh;
+}
+.quadro{
+  background-color: #000000e0;
+  width: 55%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+/*Conteúdo*/
+.page-title {
+  padding: 15px;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  padding-bottom: 5px;
+  width: 200px;
+}
+
+/*quadro aonde será impreso resposta*/
+.quadro-resposta{
+  background-color: #b1a49dcb;
+  width: 94%;
+  height: 20%;
+  margin: auto;
+}
+#quadro-reposta-id{
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}*/
+
+@media (max-height: 500px) {
+  body {
+    min-height:800px;
   }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right:10px;
-  }
-  
-  @media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
-  }
+}
