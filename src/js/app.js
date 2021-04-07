@@ -50,3 +50,5 @@ while (tentativas > 0){
 if (chute != numeroSecreto){
   document.getElementById("quadro-reposta-id").innerHTML = "<h2>Suas tentativas acabaram . O número secreto era " + numeroSecreto+"</h2>";
 } 
+
+
